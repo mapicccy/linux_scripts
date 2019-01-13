@@ -1,5 +1,15 @@
 # linux_script
 
+## miner_xmr.sh
+
+### 功能
+Centos 挖矿程序。 运行脚本自动以cpu算力挖取xmr(门罗币)。若在云主机或者VPS上运行该程序，记得使用cpulimit限制CPU利用率。cpu利用率持续占用100%会被服务提供商监控
+
+### 使用方法
+
+./miner_xmr.sh
+注意：修改xmr钱包地址
+
 ## initd.sh
 
 ### 功能
